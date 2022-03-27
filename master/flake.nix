@@ -11,6 +11,7 @@
   inputs.src-itchio-master.ref   = "refs/heads/master";
   inputs.src-itchio-master.owner = "juancarlospaco";
   inputs.src-itchio-master.repo  = "nim-itchio";
+  inputs.src-itchio-master.dir   = "";
   inputs.src-itchio-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

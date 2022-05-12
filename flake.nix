@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."itchio-master".dir   = "master";
+  inputs."itchio-master".owner = "nim-nix-pkgs";
+  inputs."itchio-master".ref   = "master";
+  inputs."itchio-master".repo  = "itchio";
+  inputs."itchio-master".type  = "github";
+  inputs."itchio-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."itchio-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;

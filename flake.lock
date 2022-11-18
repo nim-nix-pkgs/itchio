@@ -182,11 +182,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668748819,
-        "narHash": "sha256-vIu+42/oqcg4XW8uf4KmSjxY7eA8dfDBKZpYPLlAd90=",
+        "lastModified": 1668754590,
+        "narHash": "sha256-GA35oqsXI+pXm/pDrb7dsDhYFR0UBwEHur2piWrlm3A=",
         "owner": "nim-nix-pkgs",
         "repo": "itchio",
-        "rev": "9f9ea1e803838e8a640f174f56f1ef2c18cb6390",
+        "rev": "efd1c7e356197f105438c9cb7020b4b7e4dfa285",
         "type": "github"
       },
       "original": {
